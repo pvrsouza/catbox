@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "626315326694",
+    "firebase_url": "https://catboxflutter.firebaseio.com",
+    "project_id": "catboxflutter",
+    "storage_bucket": "catboxflutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626315326694:android:5393724716e61645",
+        "android_client_info": {
+          "package_name": "pablovinicius.com.br.catbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626315326694-fvf1ipvdlbnci25c6rsegsiphnedrnrt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pablovinicius.com.br.catbox",
+            "certificate_hash": "0297a71041da7c3c9695b19c3f6de7aac505541b"
+          }
+        },
+        {
+          "client_id": "626315326694-5lfpejcpkj11g0utkeuth7bcd4hrcibj.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "626315326694-5lfpejcpkj11g0utkeuth7bcd4hrcibj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhAsxhnFa7GJ5TXR6nFZFb0coIhrLZ4ec"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626315326694-5lfpejcpkj11g0utkeuth7bcd4hrcibj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
