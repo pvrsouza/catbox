@@ -1,6 +1,6 @@
 # catbox
 
-A new Flutter application.
+Flutter application created on course ["The complete Flutter and Firebase Developer Course"](https://www.udemy.com/flutter-development/learn/v4/overview) in Udemy.
 
 ## Getting Started
 
