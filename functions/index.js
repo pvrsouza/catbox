@@ -4,15 +4,11 @@ const admin = require('firebase-admin');
 admin.initializeApp(functions.config().firebase);
 
 exports.onLikeCat = functions.firestore
-    .document('/likes/{likeid}')
-    .onCreate(event => {
+    .document('/likes/{likeId}')
+    .onCreate((snap, context) => {
         let catId, userId;
-        console.log('event'+event);
-        console.log('event.params'+event.params);
-        console.log('event.params.likeId'+event.params.likeId);
 
-
-        [catId, userId] = event.params.likeId.split(':');
+        [catId, userId] = context.params.likeId.split(':');
 
         const db = admin.firestore();
         const catRef = db.collection('cats').doc(catId);
@@ -31,10 +27,10 @@ exports.onLikeCat = functions.firestore
     });
 
 exports.onUnlikeCat = functions.firestore
-    .document('/likes/{likeid}')
-    .onDelete(event => {
+    .document('/likes/{likeId}')
+    .onDelete((snap, context) => {
         let catId, userId;
-        [catId, userId] = event.params.likeId.split(':');
+        [catId, userId] = context.params.likeId.split(':');
 
         const db = admin.firestore();
         const catRef = db.collection('cats').doc(catId);
